@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>lessons</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="src/bootstrap.min.css">
+    <link rel="stylesheet" href="src/styles.css">
+    <style>
+        .shower {
+            --slide-ratio: calc(16 / 9);
+        }
+
+        .row {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body class="shower list">
+
+    <header class="caption">
+        <h1>lesson 1.</br> Что такое Front End? Основы html.</h1>
+    </header>
+
+    <section class="slide primary">
+        <h2>Что такое Front End? </br> Основы html.</h2>
+        <div class="row">
+            <img class="col-5 object-cover mr-auto" src="img\frontend.png" alt="Frontend">
+            <img class="col-5 object-cover" src="img\HTML5.png" alt="html">
+        </div>
+    </section>
+
+    <section class="slide">
+        <h2>Давайте разберем понятия frontend и backend на примере <a href="https://www.google.com/"
+                target="_blank">google.com</a></h2>
+    </section>
+
+    <section class="slide pt-5">
+        <div class="row mb-4">
+            <div class="col-5  text-center pr-0"><img class="mr-2" src="img/icons/001-chrome.png" width="35"
+                    alt="browser"><span>Браузер</span></div>
+            <div class="col-2 p-0 text-center"><img class="mr-2" src="img/icons/002-globe.png" width="35"
+                    alt="internet"><span>Интрнет</span></div>
+            <div class="col-5  text-center pl-0"><img class="mr-2" src="img/icons/003-server.png" width="35"
+                    alt="server"><span>Сервер</span></div>
+        </div>
+        <div class="row next  mb-2">
+            <div class="col-5 pr-0">Мы ввели адрес сайта в браузере и нажали Enter</div>
+            <div class="col-2"></div>
+            <div class="col-5 pl-0"></div>
+        </div>
+        <div class="row next  mb-3">
+            <div class="col-5 pr-0">Браузер отправил этот запрос на сервер: запросил страницу</div>
+            <div class="col-2 next  text-center"><img width="100" src="img/icons/arrow.png" alt="arrow-right"></div>
+            <div class="col-5 next pl-0">Сервер получил запрос и отправил обратно страницу</div>
+        </div>
+        <div class="row next row-reverse mb-3">
+            <div class="col-5  pr-0">Браузер получит код страницы и отобразил её (rendering)</div>
+            <div class="col-2   text-center"><img width="100" src="img/icons/arrow-left.png" alt="arrow-right">
+            </div>
+            <div class="col-5 pl-0"></div>
+        </div>
+        <div class="row next mb-2">
+            <div class="col-5 pr-0">Мы ввели поисковый запрос и нажали Enter</div>
+            <div class="col-2 "></div>
+            <div class="col-5  pl-0"></div>
+        </div>
+        <div class="row  mb-0">
+            <div class="col-5 next">Браузер отправил этот запрос на сервер</div>
+            <div class="col-2 next  text-center"><img width="100" src="img/icons/arrow.png" alt="arrow-right"></div>
+            <div class="col-5 next">Сервер получил запрос подобрал подходящие страницы, сформировал код страницы с
+                результатами и отправил обратно</div>
+        </div>
+        <div class="row next mb-3" style="margin-top: -20px;">
+            <div class="col-4 ">Браузер получит код страницы и отобразил её (rendering)</div>
+            <div class="col-4  text-center"><img width="100" src="img/icons/arrow-left.png" alt="arrow-right">
+            </div>
+            <div class="col-4 "></div>
+        </div>
+    </section>
+
+    <section class="slide">
+        <div class="row mb-5">
+            <div class="col-5  text-center pr-0"><img class="mr-2" src="img/icons/001-chrome.png" width="35"
+                    alt="browser"><span>Браузер</span></div>
+            <div class="col-2 p-0 text-center"><img class="mr-2" src="img/icons/002-globe.png" width="35"
+                    alt="internet"><span>Интрнет</span></div>
+            <div class="col-5  text-center pl-0"><img class="mr-2" src="img/icons/003-server.png" width="35"
+                    alt="server"><span>Сервер</span></div>
+        </div>
+        <div class="row   mb-5">
+            <div class="col-5 pr-0">Мы ввели адрес сайта в браузере и нажали Enter</div>
+            <div class="col-2"></div>
+            <div class="col-5 pl-0">Сервер получил запрос и отправил обратно страницу</div>
+        </div>
+
+        <div class="row  row-reverse mb-3">
+            <div class="col-5 pr-0">
+                <h2 class="color text-center">Frontend, в т.ч. вёрстка</h2>
+            </div>
+            <div class="col-2 text-center">
+            </div>
+            <div class="col-5 pl-0">
+                <h2 class="color  text-center">Backend</h2>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="slide">
+        <p>
+            <strong>Всеми́рная паути́на (англ. World Wide Web) </strong> — распределённая система, предоставляющая
+            доступ
+            к связанным между собой документам, расположенным на различных компьютерах, подключённых к сети Интернет.
+        </p>
+        <p>
+            Для обозначения Всемирной паутины также используют слово веб (англ. web «паутина») и аббревиатуру WWW.
+        </p>
+
+        <div class="footer__notes">
+            <a
+                href="https://ru.wikipedia.org/wiki/%D0%92%D1%81%D0%B5%D0%BC%D0%B8%D1%80%D0%BD%D0%B0%D1%8F_%D0%BF%D0%B0%D1%83%D1%82%D0%B8%D0%BD%D0%B0">Web
+                в Википедии</a>
+        </div>
+    </section>
+
+
+
+    <section class="slide" id="final">
+        <h2>подведение ИТОГа</h2>
+        <ul>
+            <li>Что <span class="color">И</span>нтересного ты сегодня узнал?</li>
+            <li>Что было <span class="color">Т</span>рудно?</li>
+            <li><span class="color">О</span>цени продуктивность собственного труда по 100% шкале?</li>
+            <li><span class="color">Г</span>лавная мысль в твоей голове после занятия?</li>
+        </ul>
+    </section>
+
+
+    <div class="progress"></div>
+
+    <script src="src/shower.js"></script>
+    <!-- Copyright © 3000 Yours Truly, Famous Inc. -->
+
+</body>
+
+</html>

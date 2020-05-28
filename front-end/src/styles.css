@@ -1,0 +1,30 @@
+/* Styles */
+
+@import 'fonts.css';
+@import 'shower/shower.css';
+@import 'blocks/badge.css';
+@import 'blocks/caption.css';
+@import 'blocks/progress.css';
+@import 'blocks/region.css';
+@import 'slide/slide.css';
+
+
+.object-cover{
+    object-fit: cover;
+}
+.primary{
+    background: #94ceb9; 
+    color: #fff"
+}
+.primary h2{
+    color: #fff
+}
+.footer__notes{
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    font-size: 14px;
+}
+.color{
+    color: #ff6d54 !important;
+}
